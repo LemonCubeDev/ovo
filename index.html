@@ -9,7 +9,7 @@
         var urlobj = new window.URL(window.location.href);
         let url = prompt("url?")
         (async () => {
-    // Get mods
+    // Get urls
     const mods = await fetch("fetchurls.json").then(r => r.json());
         if (url) {
             var win;
